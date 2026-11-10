@@ -2,11 +2,13 @@
 node_modules/
 .venv/
 venv/
+.vscode/
 
 # Python caches
 __pycache__/
 *.py[cod]
 .pytest_cache/
+*cache
 
 # Local settings and credentials
 .env
@@ -32,3 +34,7 @@ tmp*/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Formats
+*png
+*jpg
